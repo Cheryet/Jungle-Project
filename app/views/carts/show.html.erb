@@ -4,6 +4,15 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if cart.size < 1 %>
+
+  <div>
+    <h4>Oh No, your cart is Empty! 😔<h4>
+    <h5><a href="<%= root_path %>">Start shopping now!</a><h5>
+  </div>
+
+  <% else %>
+    
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +57,7 @@
       <% end %>
     </div>
   </div>
+
+  <% end %>
 
 </section>
