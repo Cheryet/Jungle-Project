@@ -21,7 +21,7 @@ RSpec.describe Product, type: :model do
     it "should not save when the price field is empty" do 
       @category = Category.new(name: "Bonsai Tree")
       @category.save!
-      @product = Product.new(name: 'Oak Bonsai', price: nil, quantity: 4, category: @category)
+      @product = Product.new(name: 'Oak Bonsai', price_cents: nil, quantity: 4, category: @category)
       
       expect { @product.save! }.to raise_error(ActiveRecord::RecordInvalid)
 
