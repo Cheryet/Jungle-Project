@@ -1,6 +1,6 @@
 # Jungle
 
-Jungle is a small e-commerce website built with Ruby on Rails. This project features a range of products, cart options, and an admin dashboard to manage your inventory. It also incules User Authentication featuring bcrypt.
+Jungle is a small e-commerce website built with Ruby on Rails. This project features a range of products, cart options, and an admin dashboard to manage your inventory. It also includes User Authentication featuring bcrypt.
 
 Along with being a great online store, Jungle features tests written in RSpec and Cypress to provide confidence in the code base.
 
